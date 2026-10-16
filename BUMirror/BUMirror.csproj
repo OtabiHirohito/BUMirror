@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>BUMirror</AssemblyName>
+    <RootNamespace>BUMirror</RootNamespace>
+  </PropertyGroup>
+
+  <!-- Windows Forms の FolderBrowserDialog を使用 -->
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>BUMirror.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="BUMirror.ico" />
+  </ItemGroup>
+
+</Project>
